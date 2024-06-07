@@ -86,11 +86,12 @@
     
 - **Изменение статуса отклика**
     ```http
-    PUT /api/v1/otclicks/came?id=1&status=true
-      Content-Type: application/json
+    PUT /api/v1/otclicks/came
+      Content-Type: Params/QueryParams
     {
-      "id": 1,
-      "status": true
+       Key     Value
+       id      1
+       status  true
     }
     ```
 
